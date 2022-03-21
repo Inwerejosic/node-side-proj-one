@@ -1,0 +1,30 @@
+{
+  "name": "my-node-one",
+  "version": "1.0.0",
+  "description": "My practice with node js is taking a creative turn from here onward",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Inwerejosic/node-side-proj-one.git"
+  },
+  "keywords": [
+    "Nodejs"
+  ],
+  "author": "Inwerejosic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Inwerejosic/node-side-proj-one/issues"
+  },
+  "homepage": "https://github.com/Inwerejosic/node-side-proj-one#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
