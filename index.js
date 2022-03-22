@@ -82,5 +82,5 @@ app.use(apiRoot, router);
 
 // Starting the server
 app.listen(port, () => {
-  console.log("I am up and running");
+  console.log(`I am up and running at port: ${port}`);
 });
